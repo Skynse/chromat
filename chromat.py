@@ -59,15 +59,13 @@ class Docker(DockWidget):
 
         #move nodes by offset
 
-        red.move(20, 20)
-        blue.move(-10, 10)
-        green.move(40, -20)
+        red.move(3, 3)
+        blue.move(-5, 5)
+        green.move(-7, -7)
 
         chromaGroup.addChildNode(green, None)
         chromaGroup.addChildNode(blue, None)
         chromaGroup.addChildNode(red, None)
-
-        chromaGroup.mergeDown()
 
     def setup(self):
         pass
